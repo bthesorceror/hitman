@@ -1,0 +1,23 @@
+{
+  "name": "hitman",
+  "version": "0.0.1",
+  "description": "Fulfilling event contracts for (good?)",
+  "main": "hitman.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bthesorceror/hitman.git"
+  },
+  "keywords": [
+    "events",
+    "eventemitter",
+    "contracts"
+  ],
+  "author": "Brandon Farmer",
+  "license": "BSD",
+  "devDependencies": {
+    "mocha": "~1.8.1"
+  }
+}

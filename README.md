@@ -3,9 +3,9 @@ hitman
 
 [![Build Status](https://travis-ci.org/bthesorceror/hitman.png?branch=master)](undefined)
 
-its all about fulfilling contracts
+It's all about fulfilling contracts.
 
-Happy Path (will work just like an event emitter)
+Happy Path (works just like an event emitter)
 
 ```javascript
 
@@ -21,7 +21,7 @@ Happy Path (will work just like an event emitter)
 
 ```
 
-Either of the following examples will throw an error
+Both of the following examples will throw an error:
 
 ```javascript
 

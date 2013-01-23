@@ -4,8 +4,9 @@ function throwEventError(event, attempting) {
   throw "Error: attempting to '" + attempting + "' with event '" + event + "'"
 }
 
-function Hitman(contract) {
-  this.emitter = new EventEmitter();
+function Hitman(contract, options) {
+  options = options || {};
+  this.emitter = options['emitter'] || new EventEmitter();
   this.contract = contract;
 }
 

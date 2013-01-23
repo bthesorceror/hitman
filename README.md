@@ -6,6 +6,7 @@ hitman
 It's all about fulfilling contracts.
 
 Happy path (works just like an event emitter):
+----------------------------------------------
 
 ```javascript
 
@@ -21,7 +22,27 @@ Happy path (works just like an event emitter):
 
 ```
 
+Wrapping an external EventEmitter:
+---------------------------------
+
+```javascript
+
+  var Hitman       = require('hitman').Hitman,
+      EventEmitter = require('events').EventEmitter;
+
+  var ext_emitter = new EventEmitter(),
+      emitter = new Hitman(['1', '2'], { emitter: ext_emitter });
+
+  emitter.on('1', function() {
+    console.log('hello world');
+  });
+
+  emitter.emit('1');
+
+```
+
 Both of the following examples will throw an error:
+---------------------------------------------------
 
 ```javascript
 

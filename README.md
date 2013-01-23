@@ -5,7 +5,7 @@ hitman
 
 It's all about fulfilling contracts.
 
-Happy Path (works just like an event emitter)
+Happy path (works just like an event emitter):
 
 ```javascript
 

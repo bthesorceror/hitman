@@ -1,7 +1,7 @@
 var EventEmitter = require('events').EventEmitter;
 
 function throwEventError(event, attempting) {
-  throw "Error: attempting to '" + attempting + "' with event '" + event + "'"
+  throw new Error("Error: attempting to '" + attempting + "' with event '" + event + "'");
 }
 
 function Hitman(contract, options) {

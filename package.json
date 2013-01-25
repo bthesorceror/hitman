@@ -1,6 +1,6 @@
 {
   "name": "hitman",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Fulfilling event contracts for (good?)",
   "main": "hitman.js",
   "scripts": {
@@ -21,6 +21,5 @@
     "mocha": "~1.8.1",
     "sinon": "~1.5.2"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
